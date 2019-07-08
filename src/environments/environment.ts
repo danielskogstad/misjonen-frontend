@@ -3,8 +3,11 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: true,
+  p4podcastUrl: 'https://api.p4.no/1/data/lydklipp',
+  misjonenSectionId: 423
 };
+
 
 /*
  * For easier debugging in development mode, you can import the following file
