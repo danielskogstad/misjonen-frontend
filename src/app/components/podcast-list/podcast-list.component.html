@@ -1,0 +1,7 @@
+<mat-nav-list>
+  <a mat-list-item href="{{ podcast.url }}" *ngFor="let podcast of podcastList">
+    <mat-icon matListIcon>play_arrow</mat-icon>
+    <h3 matLine>{{ podcast.title }}</h3>
+    <p matLine>{{ podcast.description }}</p>
+  </a>
+</mat-nav-list>
